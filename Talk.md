@@ -9,7 +9,7 @@
 
 ---
 
-### Document Swift Projects
+### Document *__Swift__* Projects
 
 ---
 
@@ -32,6 +32,47 @@ Version: 0.1.9
 ^ All done via XPC
 Reason why Swift-only now
 Uses AST
+
+---
+
+## Using Jazzy’s _CLI_
+
+```
+Usage: jazzy
+
+Options
+    -o, --output FOLDER              Folder to output the HTML docs to
+    -c, --[no-]clean                 Delete contents of output directory before running.
+                                     WARNING: If --output is set to ~/Desktop, this will delete the \
+                                     ~/Desktop directory.
+    -x arg1,arg2,…argN,              Arguments to forward to xcodebuild
+        --xcodebuild-arguments
+    -a, --author AUTHOR_NAME         Name of author to attribute in docs (i.e. Realm)
+    -u, --author_url URL             Author URL of this project (i.e. http://realm.io)
+    -m, --module MODULE_NAME         Name of module being documented. (i.e. RealmSwift)
+    -d, --dash_url URL               URL to install docs in Dash (i.e. dash-feed://...
+    -g, --github_url URL             GitHub URL of this project (i.e. \
+                                     https://github.com/realm/realm-cocoa)
+        --github-file-prefix PREFIX  GitHub URL file prefix of this project (i.e. \
+                                     https://github.com/realm/realm-cocoa/tree/v0.87.1)
+    -s FILEPATH,                     XML doc file generated from sourcekitten to parse
+        --sourcekitten-sourcefile
+    -v, --version                    Print version number
+    -h, --help                       Print this help message
+```
+
+---
+
+## Using Jazzy’s _CLI_
+
+```
+jazzy
+    -m Alamofire
+    -x -project,Alamofire.xcodeproj
+    -g https://github.com/Alamofire/Alamofire
+    --github-file-prefix https://github.com/Alamofire/Alamofire/blob/1.1.1
+    --clean
+```
 
 ---
 

@@ -128,8 +128,7 @@ public func encode(URLRequest: URLRequestConvertible, parameters: [String: AnyOb
 - More robust _tooling_
 - Documentation generation on _CocoaDocs_
 - Stronger _CocoaPods_ integration
-- Objective-C support
-- _:cake:_
+- _Objective-C_ support
 - *¯\\\_(ツ)\_/¯*
 
 ^ We want to know what features you all want, and we welcome your contributions!

@@ -5,17 +5,17 @@
 
 ---
 
-## Thanks to _Realm_
+## [fit] Thanks to _Realm_
 
 ---
 
-### Document *__Swift__* Projects
+### [fit] Document *__Swift__* Projects
 
 ---
 
 ## Built on _JP_’s __sourcekitten__
 
-Leverages `sourcekit` for parsing
+Leverages SourceKit for parsing
 
 ```
 Usage: sourcekitten 
@@ -31,7 +31,7 @@ Version: 0.1.9
 
 ^ All done via XPC
 Reason why Swift-only now
-Uses AST
+Uses AST, super accurate
 
 ---
 
@@ -105,21 +105,21 @@ public func encode(URLRequest: URLRequestConvertible, parameters: [String: AnyOb
 
 ---
 
-The beautiful result
+![fit](image/docs.jpg)
 
-![inline](image/docs.jpg)
-
----
-
-README Index Pages
-
-![inline](image/readme.jpg)
+^ Resulting HTML
 
 ---
 
-Docsets for Dash
+![fit](image/readme.jpg)
 
-![inline](image/docset.jpg)
+^ README Index Pages
+
+---
+
+![fit](image/docset.jpg)
+
+^ Dash Docsets
 
 ---
 
@@ -128,6 +128,7 @@ Docsets for Dash
 - More robust _tooling_
 - Documentation generation on _CocoaDocs_
 - Stronger _CocoaPods_ integration
+- Objective-C support
 - _:cake:_
 - *¯\\\_(ツ)\_/¯*
 
